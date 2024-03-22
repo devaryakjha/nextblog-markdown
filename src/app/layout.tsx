@@ -12,7 +12,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn(font.variable)}>{children}</body>
+      <body className={cn("font-sans", font.variable)}>{children}</body>
     </html>
   );
 }
