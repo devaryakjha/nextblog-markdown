@@ -1,5 +1,5 @@
 import { DM_Sans } from "next/font/google";
 
-const font = DM_Sans({ subsets: ["latin"] });
+const fontSans = DM_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
-export default font;
+export default fontSans;
